@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.header , .header1 , .navbar ,.div1,.div2 , footer{
+    /* border: 1px solid red; */
+}
+.header1{
+    width: 100%;
+    height:200px;
+    background-color: darkorange;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .header {
+    padding: 80px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+} */
+​
+.navbar{
+    background-color:wheat;
+    padding: 10px;
+    font-size: 20px;
+}
+button{
+    background-color: wheat;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    color: black;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+​
+#right{
+    float: right;
+    height: 40px;
+    width: 65px;
+}
+​
+button:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+section{
+    display: flex;
+    width: 100vw;
+}
+.div1{
+    width: 60%;
+    background-color: darksalmon;
+    padding: 15px;text-align: center;
+}
+h2{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+.image img{
+    width: 300px;
+    height: 200px;
+    margin: 20px 0;
+}
+.imggrup .img1{
+    width: 300px;
+    height: 200px;
+    background-image: url("https://picsum.photos/id/237/600/400");
+    margin-top: 20px;
+    background-size: cover;
+}
+.imggrup .img2{
+    width: 300px;
+    height: 200px;
+    background-image: url("https://picsum.photos/id/239/600/400");
+    margin-top: 20px;
+    background-size: cover;
+}
+.imggrup .img3{
+    width: 300px;
+    height: 200px;
+    background-image: url("https://picsum.photos/id/242/600/400");
+    margin-top: 20px;
+    background-size: cover;
+}
+.div2{
+    padding: 25px;
+    text-align: center;
+    background-color: bisque;
+}
+.div2 .image2{
+    background-image: url("https://picsum.photos/id/642/600/400");
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+    float: left;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+.clearfix{
+    clear: both;
+}
+.div2 .image3{
+    background-image: url("https://picsum.photos/id/1011/600/400");
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+    float: right;
+    margin-left: 15px;
+    border-radius: 20px;
+}
+.div2 h2{
+    margin-top: 15px;
+}
+footer{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+}
+span{
+    color: red;
+}
+​
+.acilir-menu ul{
+    display: none;
+}
+.acilir-menu .fa-bars:active{
+    opacity: 0.5;
+}
+.acilir-menu:hover ul{
+    display: block;
+    transition: 2s;}
